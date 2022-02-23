@@ -58,7 +58,7 @@ class _TodoListState extends State<TodoList> {
   //Generate list of item widgets
   Widget buildTodoItem(String title, String discription) {
     return Card(
-      color: Colors.lightBlue.shade100,
+      color: Colors.lightBlue.shade200,
       child: ListTile(
         title: Text(title),
         subtitle: Text(discription),
